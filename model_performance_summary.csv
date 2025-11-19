@@ -1,0 +1,4 @@
+Model,Features,Brier_Score,Accuracy,Betting_ROI,Computation_Time,Best_For
+Simple ELO,3 (ELO + GD-L10),0.6238,48.56%,-11.36%,~2 min,Simplicity and clarity
+Player ELO + Tuning,3 (ELO + GD-L5),0.6240,48.58%,-10.20%,~3 min,Showing hyperparameter optimization
+Bookmaker Baseline,N/A,0.6136,50.50%,N/A,N/A,Industry benchmark
