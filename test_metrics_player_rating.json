@@ -1,0 +1,17 @@
+{
+  "model_name": "Player Rating System (Holmes & McHale 2024 Approach)",
+  "hyperparameters": {
+    "learning_rate": 0.005,
+    "decay_factor": 0.98
+  },
+  "test_brier_score": 0.6517672080956054,
+  "test_accuracy": 0.4324391455538997,
+  "test_log_loss": 1.075886533134215,
+  "bookmaker_brier_score": 0.6135918911143347,
+  "bookmaker_accuracy": 0.5049677098857427,
+  "brier_improvement": -0.038175316981270746,
+  "betting_total_profit": -858.5000000000014,
+  "betting_num_bets": 3673,
+  "betting_win_rate": 0.3269806697522461,
+  "betting_roi": -0.023373264361557348
+}
