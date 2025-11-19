@@ -1,0 +1,27 @@
+{
+    "model_name": "Multinomial Logistic Regression + ELO",
+    "features": [
+        "elo_diff",
+        "home_gd_L10",
+        "away_gd_L10"
+    ],
+    "hyperparameters": {
+        "k_factor": 20,
+        "home_advantage": 100,
+        "rolling_window": 10,
+        "ev_threshold": 0.03
+    },
+    "test_brier_score": 0.6237959978469245,
+    "test_accuracy": 0.48559364133134625,
+    "test_log_loss": 1.0369267936164528,
+    "bookmaker_brier_score": 0.6135918911143347,
+    "bookmaker_accuracy": 0.5049677098857427,
+    "brier_improvement": -0.010204106732589868,
+    "betting_total_profit": -2639.2999999999984,
+    "betting_num_bets": 2324,
+    "betting_win_rate": 0.24784853700516352,
+    "betting_roi": -0.11356712564543883,
+    "betting_sharpe": -3.291274304232603,
+    "betting_max_drawdown": 2755.699999999998,
+    "random_seed": 42
+}

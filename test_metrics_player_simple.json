@@ -1,0 +1,11 @@
+{
+  "model_name": "ELO + Player Stats",
+  "best_window": 5,
+  "test_brier": 0.6239611796195322,
+  "test_accuracy": 0.4858420268256334,
+  "bm_brier": 0.6135918911143347,
+  "improvement": -0.010369288505197582,
+  "betting_profit": -2416.299999999999,
+  "betting_roi": -0.10203969594594589,
+  "betting_sharpe": -2.9794158280225598
+}
