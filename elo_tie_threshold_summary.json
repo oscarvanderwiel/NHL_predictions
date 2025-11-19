@@ -1,0 +1,135 @@
+{
+    "model": "ELO with Tie Threshold",
+    "k_factor": 20,
+    "home_advantage": 100,
+    "thresholds_tested": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+    ],
+    "best_threshold": 0,
+    "results_by_threshold": [
+        {
+            "threshold": 0,
+            "train_accuracy": 0.4383693706101088,
+            "test_accuracy": 0.46944858420268254,
+            "description": "Baseline (no threshold)",
+            "train_tie_predictions": NaN,
+            "test_tie_predictions": NaN,
+            "train_tie_rate": NaN,
+            "test_tie_rate": NaN
+        },
+        {
+            "threshold": 10,
+            "train_accuracy": 0.41605839416058393,
+            "test_accuracy": 0.46050670640834573,
+            "description": "Threshold = 10",
+            "train_tie_predictions": 731.0,
+            "test_tie_predictions": 272.0,
+            "train_tie_rate": 0.1006748381765597,
+            "test_tie_rate": 0.06756085444610035
+        },
+        {
+            "threshold": 20,
+            "train_accuracy": 0.39512463847954826,
+            "test_accuracy": 0.44808743169398907,
+            "description": "Threshold = 20",
+            "train_tie_predictions": 1473.0,
+            "test_tie_predictions": 544.0,
+            "train_tie_rate": 0.20286461919845752,
+            "test_tie_rate": 0.1351217088922007
+        },
+        {
+            "threshold": 30,
+            "train_accuracy": 0.3747417711059083,
+            "test_accuracy": 0.4356681569796324,
+            "description": "Threshold = 30",
+            "train_tie_predictions": 2149.0,
+            "test_tie_predictions": 827.0,
+            "train_tie_rate": 0.29596474314832666,
+            "test_tie_rate": 0.2054148037754595
+        },
+        {
+            "threshold": 40,
+            "train_accuracy": 0.36207134003580776,
+            "test_accuracy": 0.4232488822652757,
+            "description": "Threshold = 40",
+            "train_tie_predictions": 2763.0,
+            "test_tie_predictions": 1118.0,
+            "train_tie_rate": 0.3805260983335629,
+            "test_tie_rate": 0.2776949826130154
+        },
+        {
+            "threshold": 50,
+            "train_accuracy": 0.34554469081393746,
+            "test_accuracy": 0.41306507699950323,
+            "description": "Threshold = 50",
+            "train_tie_predictions": 3331.0,
+            "test_tie_predictions": 1379.0,
+            "train_tie_rate": 0.4587522379837488,
+            "test_tie_rate": 0.3425235966219573
+        },
+        {
+            "threshold": 60,
+            "train_accuracy": 0.33135931689849885,
+            "test_accuracy": 0.4056135121708892,
+            "description": "Threshold = 60",
+            "train_tie_predictions": 3903.0,
+            "test_tie_predictions": 1586.0,
+            "train_tie_rate": 0.5375292659413304,
+            "test_tie_rate": 0.3939393939393939
+        },
+        {
+            "threshold": 70,
+            "train_accuracy": 0.31910205205894504,
+            "test_accuracy": 0.3936910084451068,
+            "description": "Threshold = 70",
+            "train_tie_predictions": 4453.0,
+            "test_tie_predictions": 1828.0,
+            "train_tie_rate": 0.6132764082082358,
+            "test_tie_rate": 0.4540486835568803
+        },
+        {
+            "threshold": 80,
+            "train_accuracy": 0.305605288527751,
+            "test_accuracy": 0.3840039741679086,
+            "description": "Threshold = 80",
+            "train_tie_predictions": 4944.0,
+            "test_tie_predictions": 2024.0,
+            "train_tie_rate": 0.680897947941055,
+            "test_tie_rate": 0.5027322404371585
+        },
+        {
+            "threshold": 90,
+            "train_accuracy": 0.2989946288390029,
+            "test_accuracy": 0.3738201689021361,
+            "description": "Threshold = 90",
+            "train_tie_predictions": 5331.0,
+            "test_tie_predictions": 2208.0,
+            "train_tie_rate": 0.7341963916815866,
+            "test_tie_rate": 0.5484351713859911
+        },
+        {
+            "threshold": 100,
+            "train_accuracy": 0.2915576366891613,
+            "test_accuracy": 0.3633879781420765,
+            "description": "Threshold = 100",
+            "train_tie_predictions": 5705.0,
+            "test_tie_predictions": 2390.0,
+            "train_tie_rate": 0.7857044484230822,
+            "test_tie_rate": 0.5936413313462494
+        }
+    ],
+    "best_model_test_accuracy": 0.46944858420268254,
+    "baseline_test_accuracy": 0.46944858420268254,
+    "accuracy_improvement": 0.0,
+    "random_seed": 42
+}
