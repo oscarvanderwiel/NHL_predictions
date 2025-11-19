@@ -1,0 +1,63 @@
+{
+    "model": "Pure ELO Rating Model (Arntzen & Hvattum 2010)",
+    "k_factors_tested": [
+        20,
+        25,
+        30,
+        35,
+        40
+    ],
+    "home_advantage": 100,
+    "best_k_factor": 20,
+    "results_by_k_factor": [
+        {
+            "k_factor": 20,
+            "train_accuracy": 0.4383693706101088,
+            "train_brier": 0.6720639457285186,
+            "train_logloss": 1.1198501480189322,
+            "test_accuracy": 0.46944858420268254,
+            "test_brier": 0.6534672768054383,
+            "test_logloss": 1.0941500400590767
+        },
+        {
+            "k_factor": 25,
+            "train_accuracy": 0.4376807602258642,
+            "train_brier": 0.6738045098502312,
+            "train_logloss": 1.1224894133834522,
+            "test_accuracy": 0.4689518132141083,
+            "test_brier": 0.6551138925102111,
+            "test_logloss": 1.0966292777148408
+        },
+        {
+            "k_factor": 30,
+            "train_accuracy": 0.43878253684065555,
+            "train_brier": 0.6757581027962087,
+            "train_logloss": 1.1254442041407093,
+            "test_accuracy": 0.4682066567312469,
+            "test_brier": 0.6569375006653304,
+            "test_logloss": 1.0993298688747029
+        },
+        {
+            "k_factor": 35,
+            "train_accuracy": 0.43781848230271314,
+            "train_brier": 0.6778094831211876,
+            "train_logloss": 1.1285240764976288,
+            "test_accuracy": 0.4689518132141083,
+            "test_brier": 0.6588324934307197,
+            "test_logloss": 1.1021133513336197
+        },
+        {
+            "k_factor": 40,
+            "train_accuracy": 0.43878253684065555,
+            "train_brier": 0.6799555293818469,
+            "train_logloss": 1.1317487582819536,
+            "test_accuracy": 0.46646795827123694,
+            "test_brier": 0.6608257891263453,
+            "test_logloss": 1.1050783841843048
+        }
+    ],
+    "best_model_test_accuracy": 0.46944858420268254,
+    "best_model_test_brier": 0.6534672768054383,
+    "best_model_test_logloss": 1.0941500400590767,
+    "random_seed": 42
+}
