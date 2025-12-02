@@ -1,0 +1,81 @@
+{
+    "model": "ELO Rating Model - Grid Search",
+    "k_factor_range": [
+        15,
+        25
+    ],
+    "home_advantage_range": [
+        30,
+        50
+    ],
+    "total_combinations_tested": 231,
+    "best_k_factor": 15,
+    "best_home_advantage": 34,
+    "best_model_train_accuracy": 0.4427764770692742,
+    "best_model_test_accuracy": 0.4932935916542474,
+    "best_model_test_brier": 0.631500439725666,
+    "best_model_test_logloss": 1.0605654122685197,
+    "random_seed": 42,
+    "top_10_configurations": [
+        {
+            "k_factor": 15,
+            "home_advantage": 34,
+            "test_accuracy": 0.4932935916542474,
+            "test_brier": 0.631500439725666
+        },
+        {
+            "k_factor": 16,
+            "home_advantage": 35,
+            "test_accuracy": 0.4930452061599603,
+            "test_brier": 0.6319211237979815
+        },
+        {
+            "k_factor": 15,
+            "home_advantage": 36,
+            "test_accuracy": 0.49279682066567315,
+            "test_brier": 0.6317105262813926
+        },
+        {
+            "k_factor": 15,
+            "home_advantage": 35,
+            "test_accuracy": 0.49254843517138597,
+            "test_brier": 0.6316017563082197
+        },
+        {
+            "k_factor": 21,
+            "home_advantage": 44,
+            "test_accuracy": 0.49254843517138597,
+            "test_brier": 0.6349423339801639
+        },
+        {
+            "k_factor": 15,
+            "home_advantage": 33,
+            "test_accuracy": 0.49230004967709884,
+            "test_brier": 0.6314051691084668
+        },
+        {
+            "k_factor": 17,
+            "home_advantage": 38,
+            "test_accuracy": 0.49230004967709884,
+            "test_brier": 0.632605552791742
+        },
+        {
+            "k_factor": 17,
+            "home_advantage": 39,
+            "test_accuracy": 0.49230004967709884,
+            "test_brier": 0.6327421251795733
+        },
+        {
+            "k_factor": 15,
+            "home_advantage": 37,
+            "test_accuracy": 0.4920516641828117,
+            "test_brier": 0.6318273091882705
+        },
+        {
+            "k_factor": 16,
+            "home_advantage": 36,
+            "test_accuracy": 0.4920516641828117,
+            "test_brier": 0.6320277142654063
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "model": "ELO with Dynamic K-Factor",
+    "home_advantage": 34,
+    "base_k_values_tested": [
+        10,
+        15,
+        20,
+        25,
+        30
+    ],
+    "weighting_functions_tested": [
+        "Fixed",
+        "Linear (max_diff=300)",
+        "Linear (max_diff=400)",
+        "Linear (max_diff=500)",
+        "Exponential",
+        "Sigmoid (steep=0.005, mid=200)",
+        "Sigmoid (steep=0.01, mid=200)",
+        "Sigmoid (steep=0.01, mid=150)",
+        "Polynomial (power=1.5)",
+        "Polynomial (power=2)",
+        "Polynomial (power=3)",
+        "Square Root",
+        "Upset Multiplier (x1.5)",
+        "Upset Multiplier (x2)",
+        "Upset Multiplier (x2.5)",
+        "Upset Multiplier (x3)"
+    ],
+    "total_configurations": 80,
+    "best_configuration": {
+        "base_k": 30,
+        "weight_function": "sqrt",
+        "weight_name": "Square Root",
+        "weight_params": "{}",
+        "test_accuracy": 0.4942871336313959,
+        "test_logloss": 1.0661784150984823,
+        "test_brier": 0.6342640405188702
+    },
+    "best_baseline": {
+        "base_k": 15,
+        "test_accuracy": 0.4932935916542474
+    },
+    "improvement_over_baseline": 0.0009935419771485154,
+    "random_seed": 42
+}
